@@ -85,3 +85,6 @@ document
 document.getElementById("fadeSlider").addEventListener("input", function () {
   updateFade(this.value);
 });
+
+
+
