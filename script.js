@@ -20,6 +20,12 @@ function handleImageUpload(event) {
         image2Loaded = true;
       }
       if (image1Loaded && image2Loaded) {
+        if (image1.width !== image2.width || image1.height !== image2.height) {
+          alert("Error: Images must be of the same size.");
+          image1Loaded = false;
+          image2Loaded = false;
+          return;
+        }
         canvas.width = image1.width;
         canvas.height = image1.height;
         updateFade(0);
