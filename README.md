@@ -1,6 +1,6 @@
 # Image Fader
 
-This project is a simple web application that allows users to upload two images and use a slider to fade between them.
+This project is a web application that allows users to upload two images and use a slider to fade between them.
 
 ## Features
 
